@@ -1,0 +1,13 @@
+? 2.3. решите уравнение x = 2 + 2 * 2 теперь с помощью цикла
+start
+new sum number
+new i number
+set sum 0
+set i 1
+loop c (3>i)
+    set sum sum + 2
+    set i i + 1
+end c
+set sum sum + 2
+log number sum
+finish
